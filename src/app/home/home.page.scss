@@ -25,3 +25,41 @@
 #container a {
   text-decoration: none;
 }
+
+ion-toolbar {
+  --background: linear-gradient(to right bottom, #0D2B4C, #04508E);
+  --color: #ffffff;
+  text-align: center;
+}
+
+.city-bank-card {
+  padding: 15px 20px;
+  position: relative;
+}
+
+.setting-btn {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  
+  &::part(native) {
+    border-radius: 12px;
+    line-height: 38px;
+    width: 88px;
+  }
+}
+
+.setting-icon {
+  margin-right: 5px;
+}
+
+.card-content {
+  .balance-label {
+    font-size: 14px;
+  }
+
+  .balance-value {
+    font-size: 18px;
+    font-weight: bold;
+  }
+}

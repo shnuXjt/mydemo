@@ -1,0 +1,7 @@
+{
+  "name": "citybankdemo",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
